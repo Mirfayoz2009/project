@@ -11,3 +11,13 @@
     align-items: center;
     height: 100vh;
 }
+
+
+.main {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path: polygon(0 2%, 100% 0%, 100% 78%, 0% 100%);
+}
